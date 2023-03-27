@@ -1235,7 +1235,8 @@ table a,
     text-align: center;
 }
 
-.input-control input {
+.input-control input,
+.input-control select {
     margin: 1.5rem 0;
     border-radius: 30px;
     font-weight: inherit;
@@ -1249,6 +1250,12 @@ table a,
     color: var(--color-white);
     resize: none;
     padding: 20px;
+}
+
+.input-control label {
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
 }
 
 .submit-btn {
